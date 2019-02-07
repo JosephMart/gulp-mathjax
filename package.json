@@ -1,0 +1,30 @@
+{
+  "name": "gulp-mathjax",
+  "version": "1.0.0",
+  "description": "Custom gulp plugin for use with mathjax",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --reporter spec",
+    "cover": "nyc mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosephMart/gulp-mathjax.git"
+  },
+  "keywords": [],
+  "author": "Joseph Martinsen <joseph@martinsen.com> (http://joseph.martinsen.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JosephMart/gulp-mathjax/issues"
+  },
+  "homepage": "https://github.com/JosephMart/gulp-mathjax#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "coveralls": "^3.0.2",
+    "mocha": "^5.2.0",
+    "nyc": "^13.2.0",
+    "typescript": "^3.3.1"
+  }
+}
